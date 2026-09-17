@@ -1,0 +1,49 @@
+<! Doctype html>
+
+<html>
+   <head>
+       <style>
+          body {
+              background-color: cyan;
+              font-family: Sans-Serif;
+          } 
+       </style>
+   </head> 
+    <header>
+        <title>Find largest number</title>
+    </header>
+    <body>
+      <div>
+          <h1>Find largest number</h1>
+          <p>This program finds the largest number.</p>
+      </div> 
+      
+      <div>
+         <button type="button" onclick="findlarge()">Press Here</button>
+      </div>
+        
+    </body>
+    <script>
+       
+       
+// find the largest of the two numbers
+
+function findlarge() {
+	
+	let num1 = parseFloat(window.prompt("Enter the first number : "));
+	let num2 = parseFloat(window.prompt("Enter the second number : "));
+	
+	if (num1 > num2) {
+		window.alert("The first number is larger.");
+		} else {
+			 window.alert(num2 + " ,The second number is the largest.");
+	}
+	
+} 
+        
+    </script>
+    
+    
+    
+    
+</html>
